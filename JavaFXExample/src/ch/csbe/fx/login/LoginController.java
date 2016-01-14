@@ -27,7 +27,7 @@ public class LoginController {
     		
 			FXMLLoader loader  = new FXMLLoader(getClass().getResource("next.fxml"));
 			Stage stage = new Stage();
-			stage.setScene(new Scene((VBox)loader.load()));
+			stage.setScene(new Scene((Parent)loader.load()));
 			NextController next = loader.<NextController>getController();
 			next.set("hallo " + username.getText());
 			stage.show();*/
@@ -40,6 +40,7 @@ public class LoginController {
     		FXMLLoader loader  = new FXMLLoader(getClass().getResource("next.fxml"));
     		//Mit der geladenen Datei wird eine neue Scene erstellt und dem Fenster hinzugefügt
     		stage.setScene(new Scene((Parent)loader.load()));
+    		stage.setTitle("Neuer Titel");
     		//Der Kontroller des fxml wird geladen und steht ab hier zur verfügung
 			NextController next = loader.<NextController>getController();
 			next.set("hallo " + username.getText());

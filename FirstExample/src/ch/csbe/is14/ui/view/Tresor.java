@@ -2,9 +2,7 @@ package ch.csbe.is14.ui.view;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.Event;
 import java.awt.EventQueue;
-import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridBagLayout;
 
@@ -16,7 +14,6 @@ import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.PlainDocument;
 
-import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
@@ -27,6 +24,10 @@ import javax.swing.JButton;
 
 public class Tresor extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane, content;
 	private JTextField[] fields;
 	private JLabel l;
@@ -51,7 +52,7 @@ public class Tresor extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Tresor() {
+	public Tresor(){
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		setTitle("Tresor");
@@ -79,6 +80,11 @@ public class Tresor extends JFrame {
 			first.setPreferredSize(d);
 			first.setFont(f);
 			first.setDocument(new PlainDocument(){
+				/**
+				 * 
+				 */
+				private static final long serialVersionUID = 1L;
+
 				public void insertString(int off, String str, AttributeSet as) throws BadLocationException{
 					if(getLength() > 0){
 						return;
@@ -86,6 +92,7 @@ public class Tresor extends JFrame {
 					super.insertString(off, str, as);
 				}
 			});
+			
 			first.addKeyListener(new KeyAdapter() {
 				public void keyReleased(KeyEvent e){
 					boolean failure = false;
@@ -135,6 +142,7 @@ public class Tresor extends JFrame {
 			}
 		});
 		footer.add(open);
+
 	}
 	
 	private void newContent(){
