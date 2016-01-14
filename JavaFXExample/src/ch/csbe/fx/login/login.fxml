@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="MyExample" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.csbe.fx.login.LoginController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <BorderPane prefHeight="370.0" prefWidth="594.0">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Muster CRM" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Text>
+               </top>
+               <center>
+                  <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label layoutX="183.0" layoutY="64.0" text="Username:" />
+                        <Label layoutX="183.0" layoutY="93.0" text="Password:" />
+                        <TextField fx:id="username" layoutX="272.0" layoutY="59.0" promptText="Username" />
+                        <PasswordField id="password" fx:id="password" layoutX="272.0" layoutY="88.0" promptText="Password" />
+                        <Button fx:id="login" defaultButton="true" layoutX="326.0" layoutY="138.0" mnemonicParsing="false" onAction="#loginAction" text="Login" />
+                     </children>
+                  </Pane>
+               </center>
+               <bottom>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="© 2016 Enrico Buchs for CsBe" BorderPane.alignment="CENTER" />
+               </bottom>
+            </BorderPane>
+         </children></AnchorPane>
+  </content>
+</TitledPane>
