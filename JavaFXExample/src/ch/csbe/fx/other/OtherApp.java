@@ -1,4 +1,4 @@
-package ch.csbe.fx.login;
+package ch.csbe.fx.other;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,7 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class LoginApp extends Application{
+public class OtherApp extends Application{
+
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,11 +16,11 @@ public class LoginApp extends Application{
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("anzeigen.fxml"));
 	    
         Scene scene = new Scene(root, 600, 400);
     
-        stage.setTitle("Login Welcome");
+        stage.setTitle("Web View");
         stage.setScene(scene);
      
         stage.show();
