@@ -50,6 +50,11 @@ public class Person {
 		this.benutzer = benutzer;
 	}
 	
+	/**
+	 * The method add the Taetigkeit to the List when it is not contains
+	 * in the list and add this person to the taetigkeit
+	 * @param t is the Taetigkeit which is added to the Taetigkeiten List
+	 */
 	public void addTaetigkeit(Taetigkeit t){
 		if(!taetigkeiten.contains(t)){
 			taetigkeiten.add(t);
