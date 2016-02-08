@@ -12,6 +12,8 @@ public class WebController {
 	
 	public void webAction(){
 		WebEngine engine = web.getEngine();
+		engine.setJavaScriptEnabled(true);
+		engine.setUserAgent("Mozilla/5.0");
 		engine.load("http://"+url.getText());
 		//engine.load("http://google.ch");
 	}

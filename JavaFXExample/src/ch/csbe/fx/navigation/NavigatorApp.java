@@ -22,7 +22,7 @@ public class NavigatorApp  extends Application{
     
         stage.setTitle("Naviation Example");
         stage.setScene(scene);
-     
+        //setUserAgentStylesheet(STYLESHEET_CASPIAN);
         stage.show();
 	}
 

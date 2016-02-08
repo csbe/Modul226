@@ -13,6 +13,7 @@ import javafx.scene.control.Hyperlink;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.text.Text;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -20,6 +21,10 @@ public class DefaultController {
 	
 	@FXML protected ScrollPane content; 
 	
+	/**
+	 * erfassen Action lädt die neue Scene
+	 * @throws IOException
+	 */
 	public void erfassenAction() throws IOException{
 		FXMLLoader loader = loadRessource("erfassen", "Erfassen");
 		ErfassenController erfassen = loader.<ErfassenController>getController();
@@ -52,11 +57,24 @@ public class DefaultController {
 		alert.getDialogPane().contentProperty().set(fp);
 		
 		//alert.setContentText("Normaler Text");
+		alert.initModality(Modality.NONE);
+		alert.showAndWait();
+	}
+	
+	public void aboutOwnAction() throws IOException{
+		Alert alert;
+		alert = new Alert(AlertType.INFORMATION);
+		alert.initStyle(StageStyle.UTILITY);
+		alert.setTitle("About");
+		alert.setHeaderText("Simple JavaFX App");
+		Parent p = FXMLLoader.load(getClass().getResource("about.fxml"));
+		alert.getDialogPane().contentProperty().set(p);
 		alert.showAndWait();
 	}
 	
 	private FXMLLoader loadRessource(String resource, String title) throws IOException{
 		Stage stage = (Stage) content.getScene().getWindow();
+		content.getScene().getStylesheets().add("style.css");
 		
 		FXMLLoader loader  = new FXMLLoader(getClass().getResource(resource+".fxml"));
 		
