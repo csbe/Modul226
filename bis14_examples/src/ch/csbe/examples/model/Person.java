@@ -7,7 +7,7 @@ import java.util.List;
 import ch.csbe.examples.data.MyList;
 
 public class Person {
-
+	
 	private String name;
 	private String vorname;
 	private Benutzer benutzer;

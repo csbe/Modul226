@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="/home/ebuchs/jdk1.8.0_65/jre/lib/javaws.jar"/>
+	<classpathentry kind="lib" path="/home/ebuchs/jdk1.8.0_65/jre/lib/jfxswt.jar"/>
+	<classpathentry kind="lib" path="/home/ebuchs/jdk1.8.0_65/jre/lib/rt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

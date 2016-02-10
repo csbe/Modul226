@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.csbe.examples.fx.controller.UserController">
+  <children>
+    <Pane layoutX="0.0" fx:id="pane" layoutY="0.0" prefHeight="400.0" prefWidth="600.0">
+      <children>
+        <Text layoutX="98.0" layoutY="52.0" scaleX="2.158039475988785" scaleY="2.1904062652961334" strokeType="OUTSIDE" strokeWidth="0.0" text="Benutzer hinzufügen:" />
+        <TextField fx:id="username" layoutX="215.0" layoutY="222.0" prefWidth="200.0" />
+        <TextField fx:id="vorname" layoutX="215.0" layoutY="95.0" prefWidth="200.0" />
+        <TextField fx:id="nachname" layoutX="215.0" layoutY="129.0" prefWidth="200.0" />
+        <ChoiceBox fx:id="role" layoutX="215.0" layoutY="176.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Admin" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ChoiceBox>
+        <Label layoutX="109.0" layoutY="225.0" text="Benutzername:" />
+        <Button fx:id="save" layoutX="215.0" layoutY="314.0" mnemonicParsing="false" onAction="#save" text="Speichern" />
+        <Label layoutX="109.0" layoutY="263.0" text="Passwort:" />
+        <Label layoutX="109.0" layoutY="132.0" text="Nachname: " />
+        <Label layoutX="109.0" layoutY="98.0" text="Vorname:" />
+        <Label layoutX="109.0" layoutY="176.0" text="Rolle:" />
+        <PasswordField fx:id="password" layoutX="215.0" layoutY="260.0" prefWidth="200.0" />
+        <Button fx:id="clear" layoutX="315.0" layoutY="314.0" mnemonicParsing="false" onAction="#clear" text="Abrechen" />
+            <DatePicker layoutX="216.0" layoutY="64.0" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
