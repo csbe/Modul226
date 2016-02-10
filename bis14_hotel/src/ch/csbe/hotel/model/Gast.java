@@ -1,12 +1,13 @@
 package ch.csbe.hotel.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Gast {
 
 	private String name;
 	private String email;
-	private List<Buchung> buchungen;
+	private List<Buchung> buchungen = new ArrayList<Buchung>();
 
 	public String getName() {
 		return name;

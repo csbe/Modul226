@@ -1,5 +1,6 @@
 package ch.csbe.hotel.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Zimmer {
@@ -8,7 +9,7 @@ public abstract class Zimmer {
 	private float preis;
 	private int stockwerk;
 	private boolean minibar;
-	private List<Buchung> buchungen;
+	private List<Buchung> buchungen = new ArrayList<Buchung>();
 
 	public int getZimmernummer() {
 		return zimmernummer;

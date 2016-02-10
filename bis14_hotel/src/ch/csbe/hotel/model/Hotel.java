@@ -1,13 +1,14 @@
 package ch.csbe.hotel.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Hotel {
 
 	private String name;
 	private String adresse;
-	private List<Doppelzimmer> doppelzimmer;
-	private List<Einzelzimmer> einzelzimmer;
+	private List<Doppelzimmer> doppelzimmer = new ArrayList<Doppelzimmer>();
+	private List<Einzelzimmer> einzelzimmer = new ArrayList<Einzelzimmer>();
 
 	public String getName() {
 		return name;

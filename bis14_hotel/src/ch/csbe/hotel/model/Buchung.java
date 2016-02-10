@@ -1,5 +1,6 @@
 package ch.csbe.hotel.model;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -9,7 +10,7 @@ public class Buchung {
 	private float kosten;
 	private int anzahlPersonen;
 	private Gast gast;
-	private List<Zimmer> zimmer;
+	private List<Zimmer> zimmer = new ArrayList<Zimmer>();
 
 	public Date getVon() {
 		return von;
@@ -48,7 +49,10 @@ public class Buchung {
 	}
 
 	public void setGast(Gast gast) {
-		this.gast = gast;
+		if(this.gast != gast){
+			this.gast = gast;
+			gast.addBuchung(this);
+		}
 	}
 
 	public List<Zimmer> getZimmer() {
