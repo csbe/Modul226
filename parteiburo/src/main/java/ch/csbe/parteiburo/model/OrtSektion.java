@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 @Entity(name = "OrtSektion")
@@ -13,8 +14,10 @@ public class OrtSektion {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	@ManyToOne
+	@JoinColumn(name="parteiburofk")
 	private ParteiBuro parteiburo;
 	@ManyToOne
+	@JoinColumn(name="ortfk")
 	private Ort ort;
 
 	public OrtSektion() {
