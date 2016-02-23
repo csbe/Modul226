@@ -3802,3 +3802,789 @@
 2016-02-19 11:50:32,594 DEBUG o.h.SQL [main] select ort0_.id as id1_3_0_, ort0_.ort as ort2_3_0_, ort0_.plz as plz3_3_0_ from Ort ort0_ where ort0_.id=? 
 2016-02-19 11:50:32,628 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_5_0_, parteiburo0_.kanton as kanton2_5_0_ from ParteiBuro parteiburo0_ where parteiburo0_.id=? 
 2016-02-19 11:50:32,645 DEBUG o.h.SQL [main] insert into OrtSektion (ortfk, parteiburofk) values (?, ?) 
+2016-02-19 11:55:53,030 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-19 11:55:53,238 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-19 11:55:53,659 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-19 11:55:53,659 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-19 11:55:54,201 DEBUG o.h.SQL [main] select ort0_.id as id1_3_0_, ort0_.ort as ort2_3_0_, ort0_.plz as plz3_3_0_ from Ort ort0_ where ort0_.id=? 
+2016-02-19 11:55:54,239 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_5_0_, parteiburo0_.kanton as kanton2_5_0_ from ParteiBuro parteiburo0_ where parteiburo0_.id=? 
+2016-02-19 11:55:54,251 DEBUG o.h.SQL [main] insert into OrtSektion (ortfk, parteiburofk) values (?, ?) 
+2016-02-22 09:13:02,997 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:13:03,439 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:13:04,264 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:13:04,265 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:13:05,257 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:13:05,291 DEBUG o.h.SQL [main] select ort0_.id as id1_3_0_, ort0_.ort as ort2_3_0_, ort0_.plz as plz3_3_0_ from Ort ort0_ where ort0_.id=? 
+2016-02-22 09:17:31,172 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:17:31,415 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:17:31,834 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:17:31,834 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:17:32,433 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:17:32,477 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:24:17,847 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:24:18,087 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:24:18,500 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:24:18,500 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:24:19,098 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:24:19,154 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:26:20,757 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:26:21,013 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:26:21,412 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:26:21,413 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:26:22,026 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:26:22,075 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:26:46,862 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:26:47,103 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:26:47,532 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:26:47,532 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:26:48,113 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:26:48,150 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:27:16,798 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:27:17,038 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:27:17,451 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:27:17,451 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:27:18,049 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:27:18,095 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:31:52,948 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:31:53,212 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:31:53,633 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:31:53,633 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:31:54,190 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:31:54,238 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:31:54,248 INFO c.c.p.m.OrtControllerTest [main] 11 
+2016-02-22 09:40:09,687 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:40:09,892 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:40:10,252 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:40:10,253 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:40:10,861 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:40:10,892 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:40:10,908 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 12 
+2016-02-22 09:41:43,978 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:41:44,223 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:41:44,664 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:41:44,664 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:41:45,287 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:41:45,340 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:41:45,365 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 13 
+2016-02-22 09:43:14,447 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:43:14,675 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:43:15,059 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:43:15,060 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:43:15,639 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:43:15,682 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:43:15,695 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 14 
+2016-02-22 09:45:14,102 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:45:14,378 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:45:14,801 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:45:14,801 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:45:15,408 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:45:15,451 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:45:15,476 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 15 
+2016-02-22 09:45:15,481 DEBUG o.h.SQL [main] select ort0_.id as id1_3_0_, ort0_.ort as ort2_3_0_, ort0_.plz as plz3_3_0_ from Ort ort0_ where ort0_.id=? 
+2016-02-22 09:45:53,240 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:45:53,490 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:45:53,902 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:45:53,902 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:45:54,504 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:45:54,551 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:45:54,577 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 16 
+2016-02-22 09:45:54,581 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:46:20,982 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:46:21,280 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:46:21,734 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:46:21,735 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:46:22,349 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:46:22,390 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:46:22,413 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 17 
+2016-02-22 09:46:22,419 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 09:46:22,425 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:46:22,426 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:47:50,287 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:47:50,534 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:47:50,989 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:47:50,989 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:47:51,608 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:47:51,647 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:47:51,656 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 18 
+2016-02-22 09:47:51,661 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 09:47:51,683 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:47:51,687 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:48:43,702 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:48:43,946 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:48:44,335 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:48:44,335 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:48:44,930 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:48:44,967 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:48:44,979 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 19 
+2016-02-22 09:48:44,984 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 09:48:44,989 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:48:44,991 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:49:25,470 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:49:25,737 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:49:26,151 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:49:26,151 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:49:26,745 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:49:26,802 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:49:26,810 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 20 
+2016-02-22 09:49:26,815 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 09:49:26,822 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:49:26,824 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:51:31,187 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:51:31,426 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:51:31,821 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:51:31,823 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:51:32,397 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:51:32,445 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:51:32,459 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 21 
+2016-02-22 09:51:32,463 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 09:51:32,469 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:51:32,472 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:53:24,390 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:53:24,636 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:53:25,023 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:53:25,024 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:53:25,613 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:53:25,682 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:53:25,698 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 22 
+2016-02-22 09:53:25,705 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 09:53:25,710 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:53:25,712 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:53:25,742 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 09:55:33,249 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:55:33,621 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:55:34,142 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:55:34,143 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:55:34,836 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:55:34,887 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:55:34,907 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 23 
+2016-02-22 09:55:34,916 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 09:55:34,923 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:55:34,927 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:55:34,942 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 09:56:52,179 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:56:52,433 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:56:52,846 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:56:52,846 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:56:53,480 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:56:53,526 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:56:53,539 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 24 
+2016-02-22 09:56:53,546 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 09:56:53,557 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:56:53,558 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:56:53,575 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 09:58:17,960 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 09:58:18,217 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 09:58:18,617 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:58:18,617 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 09:58:19,194 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 09:58:19,231 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 09:58:19,245 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 25 
+2016-02-22 10:00:28,875 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:00:29,141 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:00:29,564 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:00:29,564 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:00:30,206 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:00:30,257 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:00:30,277 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 26 
+2016-02-22 10:02:10,555 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:02:10,799 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:02:11,206 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:02:11,207 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:02:49,569 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:02:49,941 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:02:50,429 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:02:50,429 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:02:50,996 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:02:51,040 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:02:51,048 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 27 
+2016-02-22 10:31:29,653 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:31:29,874 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:31:30,248 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:31:30,248 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:31:30,788 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:31:30,836 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:31:30,849 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 28 
+2016-02-22 10:31:30,857 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:31:30,869 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:31:30,872 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:31:30,890 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 10:32:02,752 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:32:02,984 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:32:03,296 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:32:03,296 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:32:03,819 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:32:03,862 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:32:03,874 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 29 
+2016-02-22 10:32:03,879 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:32:03,884 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:32:03,886 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:32:03,894 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 10:33:15,596 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:33:15,822 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:33:16,245 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:33:16,245 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:33:16,843 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:33:16,903 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:33:16,927 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 30 
+2016-02-22 10:33:16,934 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:33:16,945 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:33:16,947 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:33:16,963 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 10:33:38,554 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:33:38,837 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:33:39,264 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:33:39,264 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:33:39,900 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:33:39,954 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:33:39,967 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 31 
+2016-02-22 10:33:39,977 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:33:39,994 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:33:39,996 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:33:40,019 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 10:34:12,510 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:34:12,815 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:34:13,364 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:34:13,365 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:34:14,083 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:34:14,143 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:34:14,154 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 32 
+2016-02-22 10:34:14,159 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:34:14,164 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:34:14,166 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:34:14,177 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 10:35:17,508 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:35:17,706 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:35:18,049 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:35:18,049 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:35:18,587 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:35:18,626 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:35:18,638 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 33 
+2016-02-22 10:35:18,643 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:35:18,649 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:35:18,650 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:35:18,665 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 10:37:37,532 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:37:37,749 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:37:38,119 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:37:38,120 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:37:38,679 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:37:38,751 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:37:38,760 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 34 
+2016-02-22 10:37:38,765 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:37:38,770 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:37:38,771 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:37:38,782 DEBUG o.h.SQL [main] update Ort set ort=?, plz=? where id=? 
+2016-02-22 10:49:35,724 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:49:35,962 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:49:36,367 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:49:36,368 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:49:36,913 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:49:36,974 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:49:36,990 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 35 
+2016-02-22 10:49:36,998 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:49:37,005 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:49:37,007 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:52:08,854 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:52:09,106 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:52:09,503 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:52:09,503 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:52:10,080 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:52:10,131 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:52:10,144 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 36 
+2016-02-22 10:52:10,152 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:52:10,160 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:52:10,163 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:52:10,164 INFO c.c.p.m.OrtControllerTest [main] Ort: Supermann 
+2016-02-22 10:52:10,164 INFO c.c.p.m.OrtControllerTest [main] Ort: Supermann 
+2016-02-22 10:53:28,405 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 10:53:28,726 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 10:53:29,150 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:53:29,150 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 10:53:29,797 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-22 10:53:29,836 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:53:29,848 INFO c.c.p.m.OrtControllerTest [main] letzte eingefügte ID 37 
+2016-02-22 10:53:29,854 DEBUG o.h.SQL [main] select ort0_.id as id1_3_, ort0_.ort as ort2_3_, ort0_.plz as plz3_3_ from Ort ort0_ 
+2016-02-22 10:53:29,862 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:53:29,868 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-22 10:53:29,869 INFO c.c.p.m.OrtControllerTest [main] Ort: Supermann 
+2016-02-22 10:53:29,870 INFO c.c.p.m.OrtControllerTest [main] Ort: Supermann 
+2016-02-22 11:19:49,680 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-22 11:19:49,869 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 11:19:50,266 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 11:19:50,266 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-22 11:19:50,681 DEBUG o.h.SQL [main] create table Kontakt (id integer not null auto_increment, information varchar(255), primary key (id)) 
+2016-02-22 11:19:50,697 DEBUG o.h.SQL [main] create table KontaktTyp (kontaktfk integer not null, typfk integer not null) 
+2016-02-22 11:19:50,717 DEBUG o.h.SQL [main] create table Typ (id integer not null auto_increment, name varchar(255), primary key (id)) 
+2016-02-23 09:06:53,817 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:06:54,117 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:06:54,570 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:06:54,570 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:06:55,430 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:06:55,469 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:06:55,476 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:06:55,493 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:06:55,495 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:06:55,517 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:15:37,163 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:15:37,398 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:15:37,833 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:15:37,833 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:15:38,494 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:15:38,514 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:15:38,515 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:15:38,527 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:15:38,529 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:15:38,550 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:15:38,563 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:24:34,040 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:24:34,303 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:24:34,745 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:24:34,746 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:24:35,535 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:24:35,555 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:24:35,557 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:24:35,568 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:24:35,570 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:24:35,603 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:24:35,612 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:27:19,725 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:27:19,962 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:27:20,515 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:27:20,516 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:27:21,305 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:27:21,323 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:27:21,325 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:27:21,343 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:27:21,348 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:27:21,373 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:27:21,386 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:29:42,486 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:29:42,824 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:29:43,358 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:29:43,359 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:29:44,246 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:29:44,294 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:29:44,297 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:29:44,314 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:29:44,317 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:29:44,352 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:29:44,372 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:30:45,835 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:30:46,119 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:30:46,551 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:30:46,552 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:30:47,149 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:30:47,179 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:30:47,181 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:30:47,194 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:30:47,196 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:30:47,217 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:30:47,231 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:35:16,270 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:35:16,516 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:35:16,957 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:35:16,957 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:35:17,642 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:35:17,663 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:35:17,705 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:35:17,710 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:35:17,712 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:36:12,186 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:36:12,438 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:36:12,891 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:36:12,892 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:36:13,555 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:36:13,589 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:36:13,631 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:36:13,640 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:36:13,642 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:36:13,665 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:36:13,667 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:38:46,933 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:38:47,191 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:38:47,614 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:38:47,614 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:38:48,330 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:38:48,351 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:40:03,498 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:40:03,702 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:40:04,066 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:40:04,066 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:40:04,643 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:40:04,665 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:40:04,666 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:40:04,676 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:40:04,677 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:41:36,980 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:41:37,232 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:41:37,670 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:41:37,671 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:41:38,403 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:41:38,429 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:41:38,432 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:41:38,451 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:41:38,453 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:41:38,480 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:41:38,495 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:43:27,569 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:43:27,810 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:43:28,260 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:43:28,260 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:43:29,016 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:43:29,048 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:43:29,049 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:43:29,063 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:43:29,065 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:43:29,087 DEBUG o.h.SQL [main] select last_insert_id() 
+2016-02-23 09:43:29,098 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:47:38,459 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:47:38,727 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:47:39,219 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:47:39,220 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:47:40,075 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:47:40,097 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:47:40,103 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:47:40,122 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:47:40,123 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:47:40,134 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:49:05,471 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:49:05,740 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:49:06,200 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:49:06,201 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:49:07,020 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:49:07,052 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:49:07,054 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:49:07,068 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:49:07,071 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:49:07,089 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:54:08,743 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:54:08,985 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:54:09,418 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:54:09,419 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:54:10,072 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:54:10,090 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:54:10,092 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:54:10,106 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:54:10,108 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:56:20,343 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:56:20,631 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:56:21,107 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:56:21,108 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:56:21,788 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:56:21,806 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:56:21,807 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:56:21,817 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:56:21,818 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:56:21,841 DEBUG o.h.SQL [main] select max(id) from ParteiBuro 
+2016-02-23 09:56:55,906 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:56:56,170 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:56:56,618 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:56:56,618 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:56:57,351 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:56:57,373 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:56:57,375 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:56:57,392 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:56:57,394 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:56:57,424 DEBUG o.h.SQL [main] select max(id) from ParteiBuro 
+2016-02-23 09:56:57,433 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 09:58:01,694 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 09:58:01,899 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 09:58:02,312 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:58:02,313 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 09:58:02,951 DEBUG o.h.SQL [main] insert into ParteiBuro (kanton) values (?) 
+2016-02-23 09:58:02,968 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:58:02,970 DEBUG o.h.SQL [main] insert into Ort (ort, plz) values (?, ?) 
+2016-02-23 09:58:02,980 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:58:02,982 DEBUG o.h.SQL [main] insert into OrtSektion (parteiburofk, ortfk) values (?, ?) 
+2016-02-23 09:58:03,000 DEBUG o.h.SQL [main] select last_insert_id() ParteiBuro 
+2016-02-23 09:58:03,014 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 10:42:55,939 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:42:56,178 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:42:56,622 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:42:56,622 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:42:57,325 DEBUG o.h.SQL [main] select max(id) from ParteiBuro 
+2016-02-23 10:42:57,354 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 10:42:57,389 ERROR o.h.h.i.a.ErrorCounter [main] line 1:48: unexpected token: [ 
+2016-02-23 10:42:57,389 ERROR o.h.h.i.a.ErrorCounter [main] line 1:48: unexpected token: [ line 1:48: unexpected token: [
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2516)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2420)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2385)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2098)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:1876)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:481)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:736)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:323)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:186)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:279)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:187)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:142)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:115)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:76)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:150)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:302)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:240)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1907)
+	at ch.csbe.parteiburo.dao.Access.search(Access.java:44)
+	at ch.csbe.parteiburo.model.ParteiBuroTest.testCSearchParteiBuro(ParteiBuroTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+2016-02-23 10:42:57,399 ERROR o.h.h.i.a.ErrorCounter [main] line 1:49: unexpected token: Ljava 
+2016-02-23 10:42:57,399 ERROR o.h.h.i.a.ErrorCounter [main] line 1:49: unexpected token: Ljava line 1:49: unexpected token: Ljava
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:769)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:323)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:186)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:279)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:187)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:142)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:115)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:76)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:150)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:302)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:240)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1907)
+	at ch.csbe.parteiburo.dao.Access.search(Access.java:44)
+	at ch.csbe.parteiburo.model.ParteiBuroTest.testCSearchParteiBuro(ParteiBuroTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+2016-02-23 10:44:04,112 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:44:04,447 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:44:05,009 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:44:05,009 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:44:05,710 DEBUG o.h.SQL [main] select max(id) from ParteiBuro 
+2016-02-23 10:44:05,729 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 10:44:05,768 ERROR o.h.h.i.a.ErrorCounter [main] line 1:48: unexpected token: [ 
+2016-02-23 10:44:05,768 ERROR o.h.h.i.a.ErrorCounter [main] line 1:48: unexpected token: [ line 1:48: unexpected token: [
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2516)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2420)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2385)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2098)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:1876)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:481)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:736)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:323)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:186)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:279)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:187)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:142)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:115)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:76)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:150)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:302)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:240)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1907)
+	at ch.csbe.parteiburo.dao.Access.search(Access.java:45)
+	at ch.csbe.parteiburo.model.ParteiBuroTest.testCSearchParteiBuro(ParteiBuroTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+2016-02-23 10:44:05,778 ERROR o.h.h.i.a.ErrorCounter [main] line 1:49: unexpected token: Ljava 
+2016-02-23 10:44:05,779 ERROR o.h.h.i.a.ErrorCounter [main] line 1:49: unexpected token: Ljava line 1:49: unexpected token: Ljava
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:769)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:323)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:186)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:279)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:187)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:142)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:115)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:76)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:150)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:302)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:240)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1907)
+	at ch.csbe.parteiburo.dao.Access.search(Access.java:45)
+	at ch.csbe.parteiburo.model.ParteiBuroTest.testCSearchParteiBuro(ParteiBuroTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+2016-02-23 10:44:52,096 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:44:52,423 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:44:52,954 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:44:52,954 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:44:53,713 DEBUG o.h.SQL [main] select max(id) from ParteiBuro 
+2016-02-23 10:44:53,738 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 10:45:17,419 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:45:17,634 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:45:18,035 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:45:18,036 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:45:18,711 DEBUG o.h.SQL [main] select max(id) from ParteiBuro 
+2016-02-23 10:45:18,729 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 10:45:47,322 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:45:47,589 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:45:48,016 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:45:48,016 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:45:48,687 DEBUG o.h.SQL [main] select max(id) from ParteiBuro 
+2016-02-23 10:45:48,720 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 10:47:01,545 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:47:01,782 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:47:02,190 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:47:02,191 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:47:02,879 DEBUG o.h.SQL [main] select max(id) from ParteiBuro 
+2016-02-23 10:47:02,904 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 10:47:37,490 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:47:37,727 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:47:38,183 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:47:38,183 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:47:38,929 DEBUG o.h.SQL [main] select max(id) from ParteiBuro 
+2016-02-23 10:47:38,955 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_0_, parteiburo0_.kanton as kanton2_7_0_, orte1_.parteiburofk as parteibu3_6_1_, ort2_.id as ortfk2_6_1_, ort2_.id as id1_5_2_, ort2_.ort as ort2_5_2_, ort2_.plz as plz3_5_2_ from ParteiBuro parteiburo0_ left outer join OrtSektion orte1_ on parteiburo0_.id=orte1_.parteiburofk left outer join Ort ort2_ on orte1_.ortfk=ort2_.id where parteiburo0_.id=? 
+2016-02-23 10:48:39,287 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:48:39,551 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:48:40,000 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:48:40,000 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:49:06,247 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:49:06,512 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:49:06,955 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:49:06,955 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:49:22,663 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:49:22,905 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:49:23,342 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:49:23,343 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:49:42,645 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:49:42,888 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:49:43,329 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:49:43,329 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:50:03,153 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:50:03,420 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:50:03,845 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:50:03,846 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:50:27,988 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:50:28,231 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:50:28,670 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:50:28,670 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:50:56,071 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 10:50:56,331 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 10:50:56,777 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 10:50:56,777 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:00:54,147 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 11:00:54,402 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 11:00:54,835 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:00:54,835 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:02:16,150 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 11:02:16,395 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 11:02:16,832 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:02:16,833 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:02:51,261 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 11:02:51,526 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 11:02:51,960 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:02:51,960 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:03:08,246 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 11:03:08,480 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 11:03:08,888 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:03:08,889 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:05:28,958 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 11:05:29,195 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 11:05:29,609 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:05:29,610 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:05:30,301 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_, parteiburo0_.kanton as kanton2_7_ from ParteiBuro parteiburo0_ where parteiburo0_.kanton=? 
+2016-02-23 11:05:51,868 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 11:05:52,135 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 11:05:52,556 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:05:52,556 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:05:53,248 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_, parteiburo0_.kanton as kanton2_7_ from ParteiBuro parteiburo0_ where parteiburo0_.kanton=? 
+2016-02-23 11:05:53,295 DEBUG o.h.SQL [main] select orte0_.parteiburofk as parteibu3_6_0_, orte0_.ortfk as ortfk2_6_0_, ort1_.id as id1_5_1_, ort1_.ort as ort2_5_1_, ort1_.plz as plz3_5_1_ from OrtSektion orte0_ inner join Ort ort1_ on orte0_.ortfk=ort1_.id where orte0_.parteiburofk=? 
+2016-02-23 11:07:57,135 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 11:07:57,382 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 11:07:57,807 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:07:57,807 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:07:58,449 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_, parteiburo0_.kanton as kanton2_7_ from ParteiBuro parteiburo0_ where parteiburo0_.kanton like ? 
+2016-02-23 11:07:58,508 DEBUG o.h.SQL [main] select orte0_.parteiburofk as parteibu3_6_0_, orte0_.ortfk as ortfk2_6_0_, ort1_.id as id1_5_1_, ort1_.ort as ort2_5_1_, ort1_.plz as plz3_5_1_ from OrtSektion orte0_ inner join Ort ort1_ on orte0_.ortfk=ort1_.id where orte0_.parteiburofk=? 
+2016-02-23 11:08:13,589 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 11:08:13,850 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 11:08:14,284 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:08:14,284 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:08:15,010 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_, parteiburo0_.kanton as kanton2_7_ from ParteiBuro parteiburo0_ where parteiburo0_.kanton like ? 
+2016-02-23 11:08:29,912 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-02-23 11:08:30,170 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-23 11:08:30,592 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:08:30,593 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.parteiburo.model.MitgliedAmt 
+2016-02-23 11:08:31,279 DEBUG o.h.SQL [main] select parteiburo0_.id as id1_7_, parteiburo0_.kanton as kanton2_7_ from ParteiBuro parteiburo0_ where parteiburo0_.kanton like ? 
+2016-02-23 11:08:31,329 DEBUG o.h.SQL [main] select orte0_.parteiburofk as parteibu3_6_0_, orte0_.ortfk as ortfk2_6_0_, ort1_.id as id1_5_1_, ort1_.ort as ort2_5_1_, ort1_.plz as plz3_5_1_ from OrtSektion orte0_ inner join Ort ort1_ on orte0_.ortfk=ort1_.id where orte0_.parteiburofk=? 

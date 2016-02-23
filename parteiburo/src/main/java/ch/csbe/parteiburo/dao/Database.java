@@ -5,11 +5,13 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 import ch.csbe.parteiburo.model.Amt;
+import ch.csbe.parteiburo.model.Kontakt;
 import ch.csbe.parteiburo.model.Mitglied;
 import ch.csbe.parteiburo.model.MitgliedAmt;
 import ch.csbe.parteiburo.model.Ort;
 import ch.csbe.parteiburo.model.OrtSektion;
 import ch.csbe.parteiburo.model.ParteiBuro;
+import ch.csbe.parteiburo.model.Typ;
 
 public class Database {
 	
@@ -20,6 +22,9 @@ public class Database {
 			.addAnnotatedClass(Amt.class)
 			.addAnnotatedClass(Mitglied.class)
 			.addAnnotatedClass(MitgliedAmt.class)
+			.addAnnotatedClass(Typ.class)
+			.addAnnotatedClass(Kontakt.class)
+			.setProperty("hibernate.hbm2ddl.auto", "update")
 		    //.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect")
 		    //.setProperty("hibernate.connection.url", "jdbc:mysql://localhost:3306/is14")
 		    //.setProperty("hibernate.connection.username", "root")
@@ -32,7 +37,11 @@ public class Database {
 	private static Session session;
 	
 	public static Session getSession(){
-		if(session == null){
+		if(factory == null || factory.isClosed()){
+			factory = cfg.buildSessionFactory();
+		}
+		//
+		if(session == null || !session.isConnected() || !session.isOpen()){
 			session = factory.openSession();
 		}
 		return session;
@@ -40,7 +49,7 @@ public class Database {
 	
 	public static void close(){
 		session.close();
-		factory.close();
+		//factory.close();
 	}
 
 }

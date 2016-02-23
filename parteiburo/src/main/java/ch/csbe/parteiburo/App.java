@@ -17,15 +17,15 @@ public class App {
 	public static void main(String[] args) {
 		Logger logger = LogManager.getLogger(App.class);
 		
-		logger.info("was geht ab");
+		//logger.info("was geht ab");
 
-		Access<Ort> aco = new Access<Ort>(Ort.class);
-		Access<ParteiBuro> acpb = new Access<ParteiBuro>(ParteiBuro.class);
-		Access<OrtSektion> acos = new Access<OrtSektion>(OrtSektion.class);
-		Ort ort = aco.getById(1);
-		ParteiBuro pb = acpb.getById(1);
-		OrtSektion os = new OrtSektion(pb, ort);
-		acos.save(os);
+		//Access<Ort> aco = new Access<Ort>(Ort.class);
+		//Access<ParteiBuro> acpb = new Access<ParteiBuro>(ParteiBuro.class);
+		//Access<OrtSektion> acos = new Access<OrtSektion>(OrtSektion.class);
+		//Ort ort = aco.getById(1);
+		//ParteiBuro pb = acpb.getById(1);
+		//OrtSektion os = new OrtSektion(pb, ort);
+		//acos.save(os);
 		// ParteiBuro pb = new ParteiBuro("Bern");
 		// acpb.save(pb);
 
@@ -39,6 +39,6 @@ public class App {
 		 * for(Ort to : ac.getList()){ System.out.println(to.getOrt()); }
 		 */
 
-		Database.close();
+		//Database.close();
 	}
 }
