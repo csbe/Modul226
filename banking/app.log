@@ -1,0 +1,59 @@
+2016-03-01 16:01:03,930 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-01 16:01:04,122 WARN o.h.e.j.c.i.ConnectionProviderInitiator [main] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections 
+2016-03-01 16:01:04,123 WARN o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections 
+2016-03-01 16:02:51,888 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-01 16:02:52,139 WARN o.h.e.j.c.i.ConnectionProviderInitiator [main] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections 
+2016-03-01 16:02:52,141 WARN o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections 
+2016-03-01 16:03:14,475 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-01 16:03:14,709 WARN o.h.e.j.c.i.ConnectionProviderInitiator [main] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections 
+2016-03-01 16:03:14,710 WARN o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections 
+2016-03-01 16:03:37,578 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-01 16:03:37,780 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-01 16:04:04,311 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-01 16:04:04,517 WARN o.h.e.j.c.i.ConnectionProviderInitiator [main] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections 
+2016-03-01 16:04:04,519 WARN o.h.e.j.e.i.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections 
+2016-03-01 16:05:00,604 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-01 16:05:00,814 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:10:33,082 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-02 16:10:33,324 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:10:33,914 DEBUG o.h.SQL [main] drop table if exists Karte 
+2016-03-02 16:10:33,920 DEBUG o.h.SQL [main] create table Karte (nummer varchar(255) not null, pin varchar(255) not null, primary key (nummer)) 
+2016-03-02 16:10:34,038 DEBUG o.h.SQL [main] insert into Karte (pin, nummer) values (?, ?) 
+2016-03-02 16:12:19,813 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-02 16:12:19,997 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:12:20,488 DEBUG o.h.SQL [main] drop table if exists Karte 
+2016-03-02 16:12:20,499 DEBUG o.h.SQL [main] create table Karte (nummer varchar(255) not null, pin varchar(255) not null, primary key (nummer)) 
+2016-03-02 16:12:20,562 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.pin as pin2_0_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-02 16:12:20,638 DEBUG o.h.SQL [main] insert into Karte (pin, nummer) values (?, ?) 
+2016-03-02 16:13:11,665 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-02 16:13:11,860 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:13:12,368 DEBUG o.h.SQL [main] drop table if exists Karte 
+2016-03-02 16:13:12,378 DEBUG o.h.SQL [main] create table Karte (nummer varchar(255) not null, pin varchar(255) not null, primary key (nummer)) 
+2016-03-02 16:13:12,443 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.pin as pin2_0_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-02 16:13:12,515 DEBUG o.h.SQL [main] insert into Karte (pin, nummer) values (?, ?) 
+2016-03-02 16:14:09,163 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-02 16:14:09,369 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:14:09,919 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.pin as pin2_0_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-02 16:17:31,820 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-02 16:17:32,014 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:17:32,620 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.pin as pin2_0_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-02 16:17:32,789 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-02 16:18:01,544 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-02 16:18:01,724 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:18:02,286 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.pin as pin2_0_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-02 16:18:02,441 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-02 16:18:02,453 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-02 16:20:01,685 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-02 16:20:01,865 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:20:02,405 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.pin as pin2_0_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-02 16:20:02,556 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-02 16:20:02,567 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-02 16:25:02,606 DEBUG o.j.logging [JavaFX Application Thread] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-02 16:25:02,962 WARN o.h.o.connections [JavaFX Application Thread] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:25:03,978 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-02 16:25:04,102 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-02 16:25:09,992 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-02 16:25:54,744 DEBUG o.j.logging [JavaFX Application Thread] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-02 16:25:55,016 WARN o.h.o.connections [JavaFX Application Thread] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-02 16:25:55,640 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-02 16:26:04,437 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
