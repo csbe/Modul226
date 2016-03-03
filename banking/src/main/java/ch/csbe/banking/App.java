@@ -1,5 +1,6 @@
 package ch.csbe.banking;
 
+import ch.csbe.banking.dao.Database;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -14,6 +15,7 @@ public class App extends Application
 {
     public static void main( String[] args )
     {
+    	Database.getInstance().getSession();
         launch(args);
     }
 
@@ -27,6 +29,10 @@ public class App extends Application
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("Banking");
 		primaryStage.show();
+	}
+	
+	public void stop(){
+		Database.getInstance().closeConnection();
 	}
     
     

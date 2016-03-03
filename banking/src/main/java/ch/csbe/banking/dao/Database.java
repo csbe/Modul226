@@ -5,6 +5,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 import ch.csbe.banking.model.Karte;
+import ch.csbe.banking.model.Kunde;
 
 public class Database {
 	
@@ -22,7 +23,8 @@ public class Database {
 	
 	private Database(){
 		config = new Configuration()
-				.addAnnotatedClass(Karte.class);
+				.addAnnotatedClass(Karte.class)
+				.addAnnotatedClass(Kunde.class);
 		factory = config.buildSessionFactory();
 	}
 	

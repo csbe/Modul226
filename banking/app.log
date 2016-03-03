@@ -57,3 +57,171 @@
 2016-03-02 16:25:55,016 WARN o.h.o.connections [JavaFX Application Thread] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
 2016-03-02 16:25:55,640 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
 2016-03-02 16:26:04,437 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:29:08,219 DEBUG o.j.logging [JavaFX Application Thread] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 08:29:08,469 WARN o.h.o.connections [JavaFX Application Thread] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 08:29:09,233 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:30:45,639 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 08:30:45,800 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 08:30:54,408 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:32:05,342 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:32:18,189 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:32:23,133 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:32:26,276 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:33:35,051 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 08:33:35,233 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 08:34:07,637 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:39:10,447 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 08:39:10,617 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 08:39:17,168 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:43:51,641 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 08:43:51,802 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 08:44:06,681 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 08:55:42,456 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 08:55:42,641 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 08:55:42,919 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 08:55:42,940 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 08:55:42,957 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 08:55:42,972 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:09:53,353 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 09:09:53,532 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:09:54,108 DEBUG o.h.SQL [main] create table Kunde (id integer not null auto_increment, name varchar(255), vorname varchar(255), primary key (id)) 
+2016-03-03 09:09:54,213 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.kundefk as kundefk3_0_0_, karte0_.pin as pin2_0_0_, kunde1_.id as id1_1_1_, kunde1_.name as name2_1_1_, kunde1_.vorname as vorname3_1_1_ from Karte karte0_ left outer join Kunde kunde1_ on karte0_.kundefk=kunde1_.id where karte0_.nummer=? 
+2016-03-03 09:09:54,240 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1054, SQLState: 42S22 
+2016-03-03 09:09:54,241 ERROR o.h.e.j.s.SqlExceptionHelper [main] Unknown column 'karte0_.kundefk' in 'field list' 
+2016-03-03 09:09:54,399 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:09:54,402 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1054, SQLState: 42S22 
+2016-03-03 09:09:54,402 ERROR o.h.e.j.s.SqlExceptionHelper [main] Unknown column 'karte0_.kundefk' in 'field list' 
+2016-03-03 09:09:54,411 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-03 09:09:54,412 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1054, SQLState: 42S22 
+2016-03-03 09:09:54,412 ERROR o.h.e.j.s.SqlExceptionHelper [main] Unknown column 'karte0_.kundefk' in 'field list' 
+2016-03-03 09:09:54,450 DEBUG o.h.SQL [main] insert into Karte (kundefk, pin, nummer) values (?, ?, ?) 
+2016-03-03 09:09:54,452 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1054, SQLState: 42S22 
+2016-03-03 09:09:54,452 ERROR o.h.e.j.s.SqlExceptionHelper [main] Unknown column 'kundefk' in 'field list' 
+2016-03-03 09:09:54,456 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:09:54,458 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 1054, SQLState: 42S22 
+2016-03-03 09:09:54,459 ERROR o.h.e.j.s.SqlExceptionHelper [main] Unknown column 'karte0_.kundefk' in 'field list' 
+2016-03-03 09:11:54,622 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 09:11:54,793 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:11:55,349 DEBUG o.h.SQL [main] alter table Karte drop foreign key FK1gttfqenmh4tw0xqibtgjc2st 
+2016-03-03 09:11:55,356 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [main] GenerationTarget encountered exception accepting command : Unable to execute command [alter table Karte drop foreign key FK1gttfqenmh4tw0xqibtgjc2st] org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Karte drop foreign key FK1gttfqenmh4tw0xqibtgjc2st]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:64)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:458)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:465)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at ch.csbe.banking.dao.Database.<init>(Database.java:28)
+	at ch.csbe.banking.dao.Database.getInstance(Database.java:19)
+	at ch.csbe.banking.model.KarteTest.testGetKarte(KarteTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FK1gttfqenmh4tw0xqibtgjc2st'; check that column/key exists
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:125)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:69)
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:261)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:290)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:344)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 41 more
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Can't DROP 'FK1gttfqenmh4tw0xqibtgjc2st'; check that column/key exists
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:479)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.result(AbstractQueryProtocol.java:400)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:381)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:337)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:280)
+	... 43 more
+
+2016-03-03 09:11:55,362 DEBUG o.h.SQL [main] drop table if exists Karte 
+2016-03-03 09:11:55,369 DEBUG o.h.SQL [main] drop table if exists Kunde 
+2016-03-03 09:11:55,424 DEBUG o.h.SQL [main] create table Karte (nummer varchar(255) not null, pin varchar(255) not null, kundefk integer, primary key (nummer)) 
+2016-03-03 09:11:55,436 DEBUG o.h.SQL [main] create table Kunde (id integer not null auto_increment, name varchar(255), vorname varchar(255), primary key (id)) 
+2016-03-03 09:11:55,448 DEBUG o.h.SQL [main] alter table Karte add constraint FK1gttfqenmh4tw0xqibtgjc2st foreign key (kundefk) references Kunde (id) 
+2016-03-03 09:11:55,538 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.kundefk as kundefk3_0_0_, karte0_.pin as pin2_0_0_, kunde1_.id as id1_1_1_, kunde1_.name as name2_1_1_, kunde1_.vorname as vorname3_1_1_ from Karte karte0_ left outer join Kunde kunde1_ on karte0_.kundefk=kunde1_.id where karte0_.nummer=? 
+2016-03-03 09:11:55,700 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:11:55,708 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-03 09:11:55,750 DEBUG o.h.SQL [main] insert into Karte (kundefk, pin, nummer) values (?, ?, ?) 
+2016-03-03 09:12:38,776 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 09:12:38,973 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:12:39,576 DEBUG o.h.SQL [main] alter table Karte drop foreign key FK1gttfqenmh4tw0xqibtgjc2st 
+2016-03-03 09:12:39,581 DEBUG o.h.SQL [main] drop table if exists Karte 
+2016-03-03 09:12:39,587 DEBUG o.h.SQL [main] drop table if exists Kunde 
+2016-03-03 09:12:39,596 DEBUG o.h.SQL [main] create table Karte (nummer varchar(255) not null, pin varchar(255) not null, kundefk integer, primary key (nummer)) 
+2016-03-03 09:12:39,608 DEBUG o.h.SQL [main] create table Kunde (id integer not null auto_increment, name varchar(255), vorname varchar(255), primary key (id)) 
+2016-03-03 09:12:39,620 DEBUG o.h.SQL [main] alter table Karte add constraint FK1gttfqenmh4tw0xqibtgjc2st foreign key (kundefk) references Kunde (id) 
+2016-03-03 09:12:39,736 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.kundefk as kundefk3_0_0_, karte0_.pin as pin2_0_0_, kunde1_.id as id1_1_1_, kunde1_.name as name2_1_1_, kunde1_.vorname as vorname3_1_1_ from Karte karte0_ left outer join Kunde kunde1_ on karte0_.kundefk=kunde1_.id where karte0_.nummer=? 
+2016-03-03 09:12:39,907 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:12:39,915 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-03 09:12:39,954 DEBUG o.h.SQL [main] insert into Karte (kundefk, pin, nummer) values (?, ?, ?) 
+2016-03-03 09:13:17,723 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 09:13:17,922 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:13:18,581 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.kundefk as kundefk3_0_0_, karte0_.pin as pin2_0_0_, kunde1_.id as id1_1_1_, kunde1_.name as name2_1_1_, kunde1_.vorname as vorname3_1_1_ from Karte karte0_ left outer join Kunde kunde1_ on karte0_.kundefk=kunde1_.id where karte0_.nummer=? 
+2016-03-03 09:13:18,701 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:13:18,708 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-03 09:13:18,729 DEBUG o.h.SQL [main] insert into Kunde (name, vorname) values (?, ?) 
+2016-03-03 09:13:18,741 DEBUG o.h.SQL [main] update Karte set kundefk=?, pin=? where nummer=? 
+2016-03-03 09:13:18,748 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:15:30,485 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 09:15:30,685 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:15:31,463 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.kundefk as kundefk3_0_0_, karte0_.pin as pin2_0_0_, kunde1_.id as id1_1_1_, kunde1_.name as name2_1_1_, kunde1_.vorname as vorname3_1_1_ from Karte karte0_ left outer join Kunde kunde1_ on karte0_.kundefk=kunde1_.id where karte0_.nummer=? 
+2016-03-03 09:15:31,680 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:15:31,689 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-03 09:15:31,711 DEBUG o.h.SQL [main] insert into Kunde (name, vorname) values (?, ?) 
+2016-03-03 09:15:31,729 DEBUG o.h.SQL [main] update Karte set kundefk=?, pin=? where nummer=? 
+2016-03-03 09:25:55,264 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 09:25:55,501 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:25:56,304 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.kundefk as kundefk3_0_0_, karte0_.pin as pin2_0_0_, kunde1_.id as id1_1_1_, kunde1_.name as name2_1_1_, kunde1_.vorname as vorname3_1_1_ from Karte karte0_ left outer join Kunde kunde1_ on karte0_.kundefk=kunde1_.id where karte0_.nummer=? 
+2016-03-03 09:25:56,481 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:25:56,487 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-03 09:25:56,509 DEBUG o.h.SQL [main] insert into Karte (kundefk, pin, nummer) values (?, ?, ?) 
+2016-03-03 09:25:56,515 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:26:59,853 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 09:27:00,068 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:27:00,724 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.kundefk as kundefk3_0_0_, karte0_.pin as pin2_0_0_, kunde1_.id as id1_1_1_, kunde1_.name as name2_1_1_, kunde1_.vorname as vorname3_1_1_ from Karte karte0_ left outer join Kunde kunde1_ on karte0_.kundefk=kunde1_.id where karte0_.nummer=? 
+2016-03-03 09:27:00,869 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:27:00,873 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-03 09:27:00,891 DEBUG o.h.SQL [main] insert into Karte (kundefk, pin, nummer) values (?, ?, ?) 
+2016-03-03 09:27:00,894 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:29:15,109 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 09:29:15,345 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:29:16,117 DEBUG o.h.SQL [main] insert into Karte (kundefk, pin, nummer) values (?, ?, ?) 
+2016-03-03 09:29:16,145 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_0_, karte0_.kundefk as kundefk3_0_0_, karte0_.pin as pin2_0_0_, kunde1_.id as id1_1_1_, kunde1_.name as name2_1_1_, kunde1_.vorname as vorname3_1_1_ from Karte karte0_ left outer join Kunde kunde1_ on karte0_.kundefk=kunde1_.id where karte0_.nummer=? 
+2016-03-03 09:29:16,303 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:29:16,306 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:29:16,311 DEBUG o.h.SQL [main] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? 
+2016-03-03 09:29:16,317 DEBUG o.h.SQL [main] insert into Kunde (name, vorname) values (?, ?) 
+2016-03-03 09:29:16,326 DEBUG o.h.SQL [main] update Karte set kundefk=?, pin=? where nummer=? 
+2016-03-03 09:30:45,532 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 09:30:45,704 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 09:30:53,422 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 09:30:53,446 DEBUG o.h.SQL [JavaFX Application Thread] select kunde0_.id as id1_1_0_, kunde0_.name as name2_1_0_, kunde0_.vorname as vorname3_1_0_ from Kunde kunde0_ where kunde0_.id=? 

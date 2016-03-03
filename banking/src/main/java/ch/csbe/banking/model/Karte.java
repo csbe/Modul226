@@ -1,8 +1,12 @@
 package ch.csbe.banking.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Transient;
 
 @Entity(name="Karte")
@@ -14,15 +18,20 @@ public class Karte {
 	// TODO Mapping to konto
 	@Transient
 	private Konto konto;
+	
+	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+	@JoinColumn(name="kundefk")
+	private Kunde kunde;
 
 	public Karte() {
 		super();
 	}
 
-	public Karte(String nummer, String pin, Konto konto) {
+	public Karte(String nummer, String pin, Kunde kunde, Konto konto) {
 		super();
 		this.nummer = nummer;
 		this.pin = pin;
+		this.setKunde(kunde);
 		this.setKonto(konto);
 	}
 
@@ -51,6 +60,18 @@ public class Karte {
 			this.konto = konto;
 			if(!this.konto.getKarten().contains(this))
 				this.konto.getKarten().add(this);
+		}
+	}
+
+	public Kunde getKunde() {
+		return kunde;
+	}
+
+	public void setKunde(Kunde kunde) {
+		if(this.kunde != kunde){
+			this.kunde = kunde;
+			if(!this.kunde.getKarten().contains(this))
+				this.kunde.getKarten().add(this);
 		}
 	}
 
