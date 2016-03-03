@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.csbe.banking.controller.fx.EinzahlenController">
+   <children>
+      <Label layoutX="300.0" layoutY="77.0" text="Welcome" />
+      <Label fx:id="bankname" layoutX="14.0" layoutY="14.0" text="Label">
+         <font>
+            <Font size="78.0" />
+         </font>
+      </Label>
+      <Label fx:id="kundename" layoutX="376.0" layoutY="77.0" text="Label" />
+      <TextField fx:id="betrag" layoutX="245.0" layoutY="158.0" />
+      <Label layoutX="174.0" layoutY="163.0" text="Betrag" />
+      <Button layoutX="245.0" layoutY="212.0" mnemonicParsing="false" onAction="#save" prefHeight="66.0" prefWidth="170.0" text="einzahlen" />
+      <Button layoutX="245.0" layoutY="296.0" mnemonicParsing="false" onAction="#self" prefHeight="66.0" prefWidth="170.0" text="zurück" />
+   </children>
+</Pane>

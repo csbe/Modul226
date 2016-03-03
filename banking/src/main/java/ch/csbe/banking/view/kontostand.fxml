@@ -24,5 +24,6 @@
             <Font size="39.0" />
          </font>
       </Label>
+      <Button layoutX="269.0" layoutY="339.0" mnemonicParsing="false" onAction="#self" text="zurück" />
    </children>
 </Pane>

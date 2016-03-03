@@ -17,13 +17,27 @@ public class WelcomeController {
 
 	@FXML private Label kundename;
 	@FXML private Label bankname;
+	
+	public void self() throws IOException {
+		Parent p = FXMLLoader.load(App.class.getResource("view/welcome.fxml"));
+		Stage s = (Stage)kundename.getScene().getWindow();
+		s.setScene(new Scene(p));
+		s.show();
+	}
+	
 
-	public void bezug() {
-
+	public void bezug() throws IOException {
+		Parent p = FXMLLoader.load(App.class.getResource("view/geldbezug.fxml"));
+		Stage s = (Stage)kundename.getScene().getWindow();
+		s.setScene(new Scene(p));
+		s.show();
 	}
 
-	public void einzahlen() {
-
+	public void einzahlen() throws IOException {
+		Parent p = FXMLLoader.load(App.class.getResource("view/einzahlen.fxml"));
+		Stage s = (Stage)kundename.getScene().getWindow();
+		s.setScene(new Scene(p));
+		s.show();
 	}
 
 	public void bestellen() {
@@ -41,8 +55,11 @@ public class WelcomeController {
 
 	}
 
-	public void aendern() {
-
+	public void aendern() throws IOException {
+		Parent p = FXMLLoader.load(App.class.getResource("view/pinaendern.fxml"));
+		Stage s = (Stage)kundename.getScene().getWindow();
+		s.setScene(new Scene(p));
+		s.show();
 	}
 
 	@FXML
