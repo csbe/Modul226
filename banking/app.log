@@ -225,3 +225,371 @@ Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Can't DROP 'FK1gtt
 2016-03-03 09:30:45,704 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
 2016-03-03 09:30:53,422 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
 2016-03-03 09:30:53,446 DEBUG o.h.SQL [JavaFX Application Thread] select kunde0_.id as id1_1_0_, kunde0_.name as name2_1_0_, kunde0_.vorname as vorname3_1_0_ from Kunde kunde0_ where kunde0_.id=? 
+2016-03-03 14:15:05,061 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 14:15:05,240 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 14:15:13,132 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 14:15:13,172 DEBUG o.h.SQL [JavaFX Application Thread] select kunde0_.id as id1_1_0_, kunde0_.name as name2_1_0_, kunde0_.vorname as vorname3_1_0_ from Kunde kunde0_ where kunde0_.id=? 
+2016-03-03 14:16:55,935 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 14:16:56,095 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 14:17:05,348 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 14:17:05,370 DEBUG o.h.SQL [JavaFX Application Thread] select kunde0_.id as id1_1_0_, kunde0_.name as name2_1_0_, kunde0_.vorname as vorname3_1_0_ from Kunde kunde0_ where kunde0_.id=? 
+2016-03-03 14:21:24,196 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 14:21:24,370 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 14:21:31,966 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_0_, karte0_.kundefk as kundefk3_0_, karte0_.pin as pin2_0_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 14:21:32,012 DEBUG o.h.SQL [JavaFX Application Thread] select kunde0_.id as id1_1_0_, kunde0_.name as name2_1_0_, kunde0_.vorname as vorname3_1_0_ from Kunde kunde0_ where kunde0_.id=? 
+2016-03-03 14:32:19,048 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 14:32:19,214 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 14:32:19,546 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.banking.model.Account 
+2016-03-03 14:32:19,546 WARN o.h.m.RootClass [main] HHH000039: Composite-id class does not override hashCode(): ch.csbe.banking.model.Account 
+2016-03-03 14:35:33,348 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 14:35:33,514 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 14:35:33,852 WARN o.h.m.RootClass [main] HHH000038: Composite-id class does not override equals(): ch.csbe.banking.model.Account 
+2016-03-03 14:35:34,148 DEBUG o.h.SQL [main] create table Account (username varchar(255) not null, password varchar(255), bankfk varchar(255) not null, primary key (username, bankfk)) 
+2016-03-03 14:35:34,164 DEBUG o.h.SQL [main] create table Bank (name varchar(255) not null, primary key (name)) 
+2016-03-03 14:35:34,176 DEBUG o.h.SQL [main] create table Buchung (id integer not null auto_increment, art integer, betrag float, datum date, ausgangfk varchar(255), eingangfk varchar(255), primary key (id)) 
+2016-03-03 14:35:34,191 DEBUG o.h.SQL [main] create table Konto (nr varchar(255) not null, kontostand float, bankfk varchar(255), kundefk integer, primary key (nr)) 
+2016-03-03 14:36:50,123 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 14:36:50,318 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 14:40:30,061 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 14:40:30,297 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 14:40:36,859 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 14:40:36,873 WARN o.h.e.j.s.SqlExceptionHelper [JavaFX Application Thread] SQL Error: 1054, SQLState: 42S22 
+2016-03-03 14:40:36,874 ERROR o.h.e.j.s.SqlExceptionHelper [JavaFX Application Thread] Unknown column 'karte0_.kontofk' in 'field list' 
+2016-03-03 14:41:19,896 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 14:41:20,068 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 14:41:20,709 DEBUG o.h.SQL [main] alter table Account drop foreign key FKf6fnvpq8gqpsuceyuxoddfui1 
+2016-03-03 14:41:20,712 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [main] GenerationTarget encountered exception accepting command : Unable to execute command [alter table Account drop foreign key FKf6fnvpq8gqpsuceyuxoddfui1] org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Account drop foreign key FKf6fnvpq8gqpsuceyuxoddfui1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:64)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:458)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:465)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at ch.csbe.banking.dao.Database.<init>(Database.java:36)
+	at ch.csbe.banking.dao.Database.getInstance(Database.java:23)
+	at ch.csbe.banking.App.main(App.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:389)
+	at com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:328)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:767)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FKf6fnvpq8gqpsuceyuxoddfui1'; check that column/key exists
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:125)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:69)
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:261)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:290)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:344)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 27 more
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Can't DROP 'FKf6fnvpq8gqpsuceyuxoddfui1'; check that column/key exists
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:479)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.result(AbstractQueryProtocol.java:400)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:381)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:337)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:280)
+	... 29 more
+
+2016-03-03 14:41:20,719 DEBUG o.h.SQL [main] alter table Buchung drop foreign key FK3jbqhs9dqmt7tlp56kupap1yv 
+2016-03-03 14:41:20,720 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [main] GenerationTarget encountered exception accepting command : Unable to execute command [alter table Buchung drop foreign key FK3jbqhs9dqmt7tlp56kupap1yv] org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Buchung drop foreign key FK3jbqhs9dqmt7tlp56kupap1yv]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:64)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:458)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:465)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at ch.csbe.banking.dao.Database.<init>(Database.java:36)
+	at ch.csbe.banking.dao.Database.getInstance(Database.java:23)
+	at ch.csbe.banking.App.main(App.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:389)
+	at com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:328)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:767)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FK3jbqhs9dqmt7tlp56kupap1yv'; check that column/key exists
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:125)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:69)
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:261)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:290)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:344)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 27 more
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Can't DROP 'FK3jbqhs9dqmt7tlp56kupap1yv'; check that column/key exists
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:479)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.result(AbstractQueryProtocol.java:400)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:381)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:337)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:280)
+	... 29 more
+
+2016-03-03 14:41:20,721 DEBUG o.h.SQL [main] alter table Buchung drop foreign key FKcoexr7k4pmg4cisbi26otsq0c 
+2016-03-03 14:41:20,722 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [main] GenerationTarget encountered exception accepting command : Unable to execute command [alter table Buchung drop foreign key FKcoexr7k4pmg4cisbi26otsq0c] org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Buchung drop foreign key FKcoexr7k4pmg4cisbi26otsq0c]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:64)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:458)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:465)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at ch.csbe.banking.dao.Database.<init>(Database.java:36)
+	at ch.csbe.banking.dao.Database.getInstance(Database.java:23)
+	at ch.csbe.banking.App.main(App.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:389)
+	at com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:328)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:767)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FKcoexr7k4pmg4cisbi26otsq0c'; check that column/key exists
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:125)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:69)
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:261)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:290)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:344)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 27 more
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Can't DROP 'FKcoexr7k4pmg4cisbi26otsq0c'; check that column/key exists
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:479)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.result(AbstractQueryProtocol.java:400)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:381)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:337)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:280)
+	... 29 more
+
+2016-03-03 14:41:20,724 DEBUG o.h.SQL [main] alter table Karte drop foreign key FKj0dx0rjbth6q554pwnu6usd71 
+2016-03-03 14:41:20,724 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [main] GenerationTarget encountered exception accepting command : Unable to execute command [alter table Karte drop foreign key FKj0dx0rjbth6q554pwnu6usd71] org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Karte drop foreign key FKj0dx0rjbth6q554pwnu6usd71]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:64)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:458)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:465)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at ch.csbe.banking.dao.Database.<init>(Database.java:36)
+	at ch.csbe.banking.dao.Database.getInstance(Database.java:23)
+	at ch.csbe.banking.App.main(App.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:389)
+	at com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:328)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:767)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FKj0dx0rjbth6q554pwnu6usd71'; check that column/key exists
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:125)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:69)
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:261)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:290)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:344)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 27 more
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Can't DROP 'FKj0dx0rjbth6q554pwnu6usd71'; check that column/key exists
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:479)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.result(AbstractQueryProtocol.java:400)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:381)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:337)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:280)
+	... 29 more
+
+2016-03-03 14:41:20,726 DEBUG o.h.SQL [main] alter table Karte drop foreign key FK1gttfqenmh4tw0xqibtgjc2st 
+2016-03-03 14:41:20,730 DEBUG o.h.SQL [main] alter table Konto drop foreign key FKdr28dx5wfw92o392e3y4hr6t7 
+2016-03-03 14:41:20,731 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [main] GenerationTarget encountered exception accepting command : Unable to execute command [alter table Konto drop foreign key FKdr28dx5wfw92o392e3y4hr6t7] org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Konto drop foreign key FKdr28dx5wfw92o392e3y4hr6t7]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:64)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:458)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:465)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at ch.csbe.banking.dao.Database.<init>(Database.java:36)
+	at ch.csbe.banking.dao.Database.getInstance(Database.java:23)
+	at ch.csbe.banking.App.main(App.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:389)
+	at com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:328)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:767)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FKdr28dx5wfw92o392e3y4hr6t7'; check that column/key exists
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:125)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:69)
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:261)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:290)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:344)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 27 more
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Can't DROP 'FKdr28dx5wfw92o392e3y4hr6t7'; check that column/key exists
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:479)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.result(AbstractQueryProtocol.java:400)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:381)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:337)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:280)
+	... 29 more
+
+2016-03-03 14:41:20,732 DEBUG o.h.SQL [main] alter table Konto drop foreign key FKp4ayshkgtjeg0jxyrkcpq2ijd 
+2016-03-03 14:41:20,732 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [main] GenerationTarget encountered exception accepting command : Unable to execute command [alter table Konto drop foreign key FKp4ayshkgtjeg0jxyrkcpq2ijd] org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Konto drop foreign key FKp4ayshkgtjeg0jxyrkcpq2ijd]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:64)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:458)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:465)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at ch.csbe.banking.dao.Database.<init>(Database.java:36)
+	at ch.csbe.banking.dao.Database.getInstance(Database.java:23)
+	at ch.csbe.banking.App.main(App.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.sun.javafx.application.LauncherImpl.launchApplicationWithArgs(LauncherImpl.java:389)
+	at com.sun.javafx.application.LauncherImpl.launchApplication(LauncherImpl.java:328)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.launcher.LauncherHelper$FXHelper.main(LauncherHelper.java:767)
+Caused by: java.sql.SQLSyntaxErrorException: Can't DROP 'FKp4ayshkgtjeg0jxyrkcpq2ijd'; check that column/key exists
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:125)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:69)
+	at org.mariadb.jdbc.MariaDbStatement.executeQueryEpilog(MariaDbStatement.java:261)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:290)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:344)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 27 more
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Can't DROP 'FKp4ayshkgtjeg0jxyrkcpq2ijd'; check that column/key exists
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:479)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.result(AbstractQueryProtocol.java:400)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:381)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:337)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:280)
+	... 29 more
+
+2016-03-03 14:41:20,734 DEBUG o.h.SQL [main] drop table if exists Account 
+2016-03-03 14:41:20,740 DEBUG o.h.SQL [main] drop table if exists Bank 
+2016-03-03 14:41:20,746 DEBUG o.h.SQL [main] drop table if exists Buchung 
+2016-03-03 14:41:20,751 DEBUG o.h.SQL [main] drop table if exists Karte 
+2016-03-03 14:41:20,757 DEBUG o.h.SQL [main] drop table if exists Konto 
+2016-03-03 14:41:20,763 DEBUG o.h.SQL [main] drop table if exists Kunde 
+2016-03-03 14:41:20,771 DEBUG o.h.SQL [main] create table Account (username varchar(255) not null, password varchar(255), bankfk varchar(255) not null, primary key (username, bankfk)) 
+2016-03-03 14:41:20,782 DEBUG o.h.SQL [main] create table Bank (name varchar(255) not null, primary key (name)) 
+2016-03-03 14:41:20,795 DEBUG o.h.SQL [main] create table Buchung (id integer not null auto_increment, art integer, betrag float, datum date, ausgangfk varchar(255), eingangfk varchar(255), primary key (id)) 
+2016-03-03 14:41:20,806 DEBUG o.h.SQL [main] create table Karte (nummer varchar(255) not null, pin varchar(255) not null, kontofk varchar(255), kundefk integer, primary key (nummer)) 
+2016-03-03 14:41:20,818 DEBUG o.h.SQL [main] create table Konto (nr varchar(255) not null, kontostand float, bankfk varchar(255), kundefk integer, primary key (nr)) 
+2016-03-03 14:41:20,829 DEBUG o.h.SQL [main] create table Kunde (id integer not null auto_increment, name varchar(255), vorname varchar(255), primary key (id)) 
+2016-03-03 14:41:20,840 DEBUG o.h.SQL [main] alter table Account add constraint FKf6fnvpq8gqpsuceyuxoddfui1 foreign key (bankfk) references Bank (name) 
+2016-03-03 14:41:20,867 DEBUG o.h.SQL [main] alter table Buchung add constraint FK3jbqhs9dqmt7tlp56kupap1yv foreign key (ausgangfk) references Konto (nr) 
+2016-03-03 14:41:20,896 DEBUG o.h.SQL [main] alter table Buchung add constraint FKcoexr7k4pmg4cisbi26otsq0c foreign key (eingangfk) references Konto (nr) 
+2016-03-03 14:41:20,926 DEBUG o.h.SQL [main] alter table Karte add constraint FKj0dx0rjbth6q554pwnu6usd71 foreign key (kontofk) references Konto (nr) 
+2016-03-03 14:41:20,954 DEBUG o.h.SQL [main] alter table Karte add constraint FK1gttfqenmh4tw0xqibtgjc2st foreign key (kundefk) references Kunde (id) 
+2016-03-03 14:41:20,986 DEBUG o.h.SQL [main] alter table Konto add constraint FKdr28dx5wfw92o392e3y4hr6t7 foreign key (bankfk) references Bank (name) 
+2016-03-03 14:41:21,015 DEBUG o.h.SQL [main] alter table Konto add constraint FKp4ayshkgtjeg0jxyrkcpq2ijd foreign key (kundefk) references Kunde (id) 
+2016-03-03 14:58:33,563 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 14:58:33,733 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 14:58:40,262 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 14:58:40,288 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 15:06:21,363 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 15:06:21,537 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 15:06:30,143 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 15:06:30,165 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 15:08:03,445 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 15:08:03,607 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 15:08:12,733 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 15:08:12,765 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 15:09:27,293 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 15:09:27,472 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 15:09:34,422 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 15:09:34,467 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 15:10:11,765 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 15:10:11,937 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 15:10:18,467 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 15:10:18,489 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 15:11:58,968 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 15:11:59,140 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 15:12:05,459 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 15:12:05,482 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 15:17:07,013 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 15:17:07,182 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 15:17:13,326 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 15:17:13,348 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 15:22:07,200 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 15:22:07,370 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 15:22:19,522 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 15:22:19,545 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 15:24:57,717 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 15:24:57,885 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 15:25:04,104 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 15:25:04,136 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 15:26:27,770 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 15:26:27,936 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 15:26:34,147 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 15:26:34,169 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 

@@ -2,11 +2,32 @@ package ch.csbe.banking.model;
 
 import java.sql.Date;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+@Entity(name="Buchung")
 public class Buchung {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int id;
+	@Column
 	private Date datum;
+	@Column
 	private float betrag;
+	@Column
 	private Art art;
+	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+	@JoinColumn(name="eingangfk")
 	private Konto eingang;
+	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+	@JoinColumn(name="ausgangfk")
 	private Konto ausgang;
 
 	public Buchung(Date datum, float betrag, Art art, Konto eingang, Konto ausgang) {

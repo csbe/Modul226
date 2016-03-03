@@ -9,7 +9,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-import javax.persistence.Transient;
 
 @Entity(name = "Kunde")
 public class Kunde {
@@ -20,7 +19,7 @@ public class Kunde {
 	private String name;
 	@Column
 	private String vorname;
-	@Transient
+	@OneToMany(mappedBy="kunde")
 	private List<Konto> konten = new ArrayList<Konto>();
 	@OneToMany(mappedBy="kunde")
 	private List<Karte> karten = new ArrayList<Karte>();

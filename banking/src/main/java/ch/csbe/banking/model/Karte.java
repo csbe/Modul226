@@ -7,7 +7,6 @@ import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.Transient;
 
 @Entity(name="Karte")
 public class Karte {
@@ -16,7 +15,8 @@ public class Karte {
 	@Column(nullable=false)
 	private String pin;
 	// TODO Mapping to konto
-	@Transient
+	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+	@JoinColumn(name="kontofk")
 	private Konto konto;
 	
 	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)

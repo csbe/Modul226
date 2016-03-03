@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import ch.csbe.banking.App;
 import ch.csbe.banking.dao.KarteDao;
+import ch.csbe.banking.helper.Session;
 import ch.csbe.banking.model.Karte;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -30,14 +31,15 @@ public class AuthController {
 			a.setContentText("Kartennummer oder Pin falsch");
 			a.show();
 		}else{
+			Session.getInstance().getMap().put("karte", k);
 			FXMLLoader loader = new FXMLLoader(App.class.getResource("view/welcome.fxml"));
 			Parent p = loader.load();
 			Scene scene = new Scene(p);
 			Stage s = (Stage)karte.getScene().getWindow();
 			s.setScene(scene);
 			s.setTitle("Welcome");
-			WelcomeController wc = loader.<WelcomeController>getController();
-			wc.setKarte(k);
+			//WelcomeController wc = loader.<WelcomeController>getController();
+			//wc.setKarte(k);
 		}
 	}
 	

@@ -4,7 +4,11 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import ch.csbe.banking.model.Account;
+import ch.csbe.banking.model.Bank;
+import ch.csbe.banking.model.Buchung;
 import ch.csbe.banking.model.Karte;
+import ch.csbe.banking.model.Konto;
 import ch.csbe.banking.model.Kunde;
 
 public class Database {
@@ -24,7 +28,11 @@ public class Database {
 	private Database(){
 		config = new Configuration()
 				.addAnnotatedClass(Karte.class)
-				.addAnnotatedClass(Kunde.class);
+				.addAnnotatedClass(Kunde.class)
+				.addAnnotatedClass(Account.class)
+				.addAnnotatedClass(Bank.class)
+				.addAnnotatedClass(Konto.class)
+				.addAnnotatedClass(Buchung.class);
 		factory = config.buildSessionFactory();
 	}
 	

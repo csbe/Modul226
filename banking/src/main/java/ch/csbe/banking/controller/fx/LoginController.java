@@ -23,8 +23,8 @@ public class LoginController {
 		Stage s = (Stage)name.getScene().getWindow();
 		s.setScene(scene);
 		
-		WelcomeController wc = loader.<WelcomeController>getController();
-		wc.setName(name.getText());
+		//WelcomeController wc = loader.<WelcomeController>getController();
+		//wc.setName(name.getText());
 	}
 
 }

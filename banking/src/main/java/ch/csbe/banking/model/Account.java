@@ -1,16 +1,37 @@
 package ch.csbe.banking.model;
 
+import java.io.Serializable;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
 
 /**
  * The Account class which contains the username and a
  * sha256 hashed password
  * @author ebuchs
  */
-public class Account {
+@Entity(name="Account")
+public class Account implements Serializable{
+	/**
+	 * 
+	 */
+	@Transient
+	private static final long serialVersionUID = 1L;
+	@Id
 	private String username;
+	@Column
 	private String password;
+	@Id
+	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+	@JoinColumn(name="bankfk")
 	private Bank bank;
 
 	public Account() {
@@ -62,6 +83,18 @@ public class Account {
 			if(!this.bank.getAccount().contains(this))
 				this.bank.getAccount().add(this);
 		}
+	}
+	
+	@Override
+	public boolean equals(Object o){
+		Account a = (Account)o;
+		return a.getBank().getName().equals(this.getBank().getName()) &&
+				a.getUsername().equals(this.getUsername());
+	}
+	
+	@Override
+	public int hashCode(){
+		return this.getUsername().hashCode()+this.getBank().getName().hashCode();
 	}
 
 }

@@ -3,12 +3,30 @@ package ch.csbe.banking.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+
+@Entity(name="Konto")
 public class Konto {
+	@Id
 	private String nr;
+	@Column
 	private float kontostand;
+	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+	@JoinColumn(name="bankfk")
 	private Bank bank;
+	@OneToMany(mappedBy="konto")
 	private List<Karte> karten = new ArrayList<Karte>();
+	@OneToMany(mappedBy="eingang")
 	private List<Buchung> buchungen = new ArrayList<Buchung>();
+	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
+	@JoinColumn(name="kundefk")
 	private Kunde kunde;
 
 	public Konto() {
