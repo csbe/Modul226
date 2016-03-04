@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_65" class="java.beans.XMLDecoder">
+ <object class="ch.csbe.fahrni.model.Person">
+  <void property="geburtsdatum">
+   <object class="java.util.Date">
+    <long>1457478000000</long>
+   </object>
+  </void>
+  <void property="gehalt">
+   <float>4545.0</float>
+  </void>
+  <void property="name">
+   <string>Muster</string>
+  </void>
+  <void property="vorname">
+   <string>Max</string>
+  </void>
+ </object>
+</java>
