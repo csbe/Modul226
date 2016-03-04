@@ -4,12 +4,12 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
-fx:controller="ch.csbe.banking.controller.fx.AuthController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.csbe.banking.controller.fx.AuthController">
    <children>
       <TextField fx:id="karte" layoutX="228.0" layoutY="111.0" />
-      <TextField fx:id="pin" layoutX="228.0" layoutY="148.0" />
+      <PasswordField fx:id="pin" layoutX="228.0" layoutY="148.0" />
       <Button layoutX="336.0" layoutY="200.0" mnemonicParsing="false" onAction="#auth" text="Button" />
+      <Label layoutX="104.0" layoutY="116.0" text="Karte-Nummer" />
+      <Label layoutX="104.0" layoutY="153.0" text="Pin" />
    </children>
 </Pane>

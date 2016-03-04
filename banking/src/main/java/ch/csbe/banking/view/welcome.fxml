@@ -16,7 +16,8 @@
       <Label fx:id="kundename" layoutX="376.0" layoutY="77.0" text="Label" />
       <Button layoutX="14.0" layoutY="128.0" mnemonicParsing="false" onAction="#anzeigen" prefHeight="83.0" prefWidth="184.0" text="Kontostand anzeigen" />
       <Button layoutX="14.0" layoutY="235.0" mnemonicParsing="false" onAction="#aendern" prefHeight="83.0" prefWidth="184.0" text="Pin ändern" />
-      <Button layoutX="224.0" layoutY="128.0" mnemonicParsing="false" onAction="#bezug" prefHeight="83.0" prefWidth="184.0" text="Geldbezug" />
-      <Button layoutX="224.0" layoutY="235.0" mnemonicParsing="false" onAction="#einzahlen" prefHeight="83.0" prefWidth="184.0" text="Einzahlen" />
+      <Button layoutX="210.0" layoutY="128.0" mnemonicParsing="false" onAction="#bezug" prefHeight="83.0" prefWidth="184.0" text="Geldbezug" />
+      <Button layoutX="210.0" layoutY="235.0" mnemonicParsing="false" onAction="#einzahlen" prefHeight="83.0" prefWidth="184.0" text="Einzahlen" />
+      <Button layoutX="402.0" layoutY="128.0" mnemonicParsing="false" onAction="#ueberweisen" prefHeight="83.0" prefWidth="184.0" text="Überweisen" />
    </children>
 </Pane>

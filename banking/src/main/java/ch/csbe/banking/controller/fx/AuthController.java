@@ -14,13 +14,14 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.PasswordField;
 
 public class AuthController {
 
 	@FXML
 	private TextField karte;
 	@FXML 
-	private TextField pin;
+	private PasswordField pin;
 	
 	public void auth() throws IOException{
 		KarteDao kd = new KarteDao();

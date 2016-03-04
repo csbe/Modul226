@@ -51,8 +51,11 @@ public class WelcomeController {
 		s.show();
 	}
 
-	public void ueberweisen() {
-
+	public void ueberweisen() throws IOException {
+		Parent p = FXMLLoader.load(App.class.getResource("view/ueberweisen.fxml"));
+		Stage s = (Stage)kundename.getScene().getWindow();
+		s.setScene(new Scene(p));
+		s.show();
 	}
 
 	public void aendern() throws IOException {

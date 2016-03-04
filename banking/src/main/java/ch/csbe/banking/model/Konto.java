@@ -21,10 +21,12 @@ public class Konto {
 	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
 	@JoinColumn(name="bankfk")
 	private Bank bank;
-	@OneToMany(mappedBy="konto")
+	@OneToMany(mappedBy="konto",cascade=CascadeType.ALL)
 	private List<Karte> karten = new ArrayList<Karte>();
-	@OneToMany(mappedBy="eingang")
-	private List<Buchung> buchungen = new ArrayList<Buchung>();
+	@OneToMany(mappedBy="eingang",cascade=CascadeType.ALL)
+	private List<Buchung> buchungeingang = new ArrayList<Buchung>();
+	@OneToMany(mappedBy="ausgang",cascade=CascadeType.ALL)
+	private List<Buchung> buchungausgang = new ArrayList<Buchung>();
 	@ManyToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
 	@JoinColumn(name="kundefk")
 	private Kunde kunde;
@@ -77,12 +79,21 @@ public class Konto {
 		this.karten = karten;
 	}
 
-	public List<Buchung> getBuchungen() {
-		return buchungen;
+	
+	public List<Buchung> getBuchungeingang() {
+		return buchungeingang;
 	}
 
-	public void setBuchungen(List<Buchung> buchungen) {
-		this.buchungen = buchungen;
+	public void setBuchungeingang(List<Buchung> buchungeingang) {
+		this.buchungeingang = buchungeingang;
+	}
+
+	public List<Buchung> getBuchungausgang() {
+		return buchungausgang;
+	}
+
+	public void setBuchungausgang(List<Buchung> buchungausgang) {
+		this.buchungausgang = buchungausgang;
 	}
 
 	public Kunde getKunde() {

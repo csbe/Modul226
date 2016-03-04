@@ -72,7 +72,11 @@ public class Buchung {
 	}
 
 	public void setEingang(Konto eingang) {
-		this.eingang = eingang;
+		if(this.eingang!=eingang){
+			this.eingang = eingang;
+			if(!this.eingang.getBuchungeingang().contains(this))
+				this.eingang.getBuchungeingang().add(this);
+		}
 	}
 
 	public Konto getAusgang() {
@@ -80,7 +84,11 @@ public class Buchung {
 	}
 
 	public void setAusgang(Konto ausgang) {
-		this.ausgang = ausgang;
+		if(this.ausgang!=ausgang){
+			this.ausgang = ausgang;
+			if(!this.ausgang.getBuchungausgang().contains(this))
+				this.ausgang.getBuchungausgang().add(this);
+		}
 	}
 
 }

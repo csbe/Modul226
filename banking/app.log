@@ -656,3 +656,101 @@ Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Can't DROP 'FKp4ay
 2016-03-03 16:20:47,766 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
 2016-03-03 16:21:08,132 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
 2016-03-03 16:21:13,548 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:09:11,274 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:09:11,551 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:09:19,129 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:09:19,152 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:10:19,031 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:10:19,229 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:10:26,798 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:10:26,821 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:10:31,817 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:10:44,297 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:10:46,272 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:12:12,303 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:12:12,603 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:12:25,884 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:12:26,074 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:12:34,893 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:12:34,935 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:12:40,085 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:12:49,946 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:15:09,999 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:15:10,165 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:15:17,517 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:15:17,540 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:24:27,297 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:24:27,475 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:24:48,441 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:24:48,466 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:26:50,461 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:26:50,686 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:26:58,448 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:26:58,502 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:27:21,221 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:27:21,401 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:27:28,443 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:27:28,466 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:27:39,248 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_, konto0_.bankfk as bankfk3_4_, konto0_.kontostand as kontosta2_4_, konto0_.kundefk as kundefk4_4_ from Konto konto0_ where nummer=? 
+2016-03-03 18:27:39,254 WARN o.h.e.j.s.SqlExceptionHelper [JavaFX Application Thread] SQL Error: 1054, SQLState: 42S22 
+2016-03-03 18:27:39,254 ERROR o.h.e.j.s.SqlExceptionHelper [JavaFX Application Thread] Unknown column 'nummer' in 'where clause' 
+2016-03-03 18:29:43,611 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:29:43,783 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:31:23,743 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:31:23,971 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:31:30,954 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:31:30,978 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:31:40,646 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:32:38,134 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:32:38,323 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:32:47,020 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:32:47,049 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:32:56,020 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:42:00,248 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:42:00,411 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:42:08,032 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:42:08,057 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:42:14,552 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_, konto0_.bankfk as bankfk3_4_, konto0_.kontostand as kontosta2_4_, konto0_.kundefk as kundefk4_4_ from Konto konto0_ where konto0_.nr=? 
+2016-03-03 18:42:14,574 DEBUG o.h.SQL [JavaFX Application Thread] insert into Konto (bankfk, kontostand, kundefk, nr) values (?, ?, ?, ?) 
+2016-03-03 18:42:14,583 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:45:31,348 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:45:31,582 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:45:38,699 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:45:38,724 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:45:47,958 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_, konto0_.bankfk as bankfk3_4_, konto0_.kontostand as kontosta2_4_, konto0_.kundefk as kundefk4_4_ from Konto konto0_ where konto0_.nr=? 
+2016-03-03 18:45:47,977 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:45:47,985 DEBUG o.h.SQL [JavaFX Application Thread] insert into Buchung (art, ausgangfk, betrag, datum, eingangfk) values (?, ?, ?, ?, ?) 
+2016-03-03 18:45:47,992 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:46:23,230 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:46:23,411 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:46:33,473 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:46:33,502 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:46:40,376 DEBUG o.h.SQL [JavaFX Application Thread] insert into Buchung (art, ausgangfk, betrag, datum, eingangfk) values (?, ?, ?, ?, ?) 
+2016-03-03 18:46:40,395 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:46:48,910 DEBUG o.h.SQL [JavaFX Application Thread] insert into Buchung (art, ausgangfk, betrag, datum, eingangfk) values (?, ?, ?, ?, ?) 
+2016-03-03 18:46:48,916 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:48:00,314 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-03 18:48:00,502 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-03 18:48:15,739 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-03 18:48:15,775 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-03 18:48:23,548 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_, konto0_.bankfk as bankfk3_4_, konto0_.kontostand as kontosta2_4_, konto0_.kundefk as kundefk4_4_ from Konto konto0_ where konto0_.nr=? 
+2016-03-03 18:48:23,570 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-03 18:48:23,579 DEBUG o.h.SQL [JavaFX Application Thread] insert into Buchung (art, ausgangfk, betrag, datum, eingangfk) values (?, ?, ?, ?, ?) 
+2016-03-03 18:48:23,585 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-04 08:33:10,399 DEBUG o.j.logging [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider 
+2016-03-04 08:33:10,621 WARN o.h.o.connections [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-03-04 08:33:19,304 DEBUG o.h.SQL [JavaFX Application Thread] select karte0_.nummer as nummer1_3_, karte0_.kontofk as kontofk3_3_, karte0_.kundefk as kundefk4_3_, karte0_.pin as pin2_3_ from Karte karte0_ where karte0_.nummer=? and karte0_.pin=? 
+2016-03-04 08:33:19,337 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_0_, konto0_.bankfk as bankfk3_4_0_, konto0_.kontostand as kontosta2_4_0_, konto0_.kundefk as kundefk4_4_0_, bank1_.name as name1_1_1_, kunde2_.id as id1_5_2_, kunde2_.name as name2_5_2_, kunde2_.vorname as vorname3_5_2_ from Konto konto0_ left outer join Bank bank1_ on konto0_.bankfk=bank1_.name left outer join Kunde kunde2_ on konto0_.kundefk=kunde2_.id where konto0_.nr=? 
+2016-03-04 08:33:24,433 DEBUG o.h.SQL [JavaFX Application Thread] update Karte set kontofk=?, kundefk=?, pin=? where nummer=? 
+2016-03-04 08:33:35,636 DEBUG o.h.SQL [JavaFX Application Thread] insert into Buchung (art, ausgangfk, betrag, datum, eingangfk) values (?, ?, ?, ?, ?) 
+2016-03-04 08:33:35,645 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-04 08:33:46,315 DEBUG o.h.SQL [JavaFX Application Thread] insert into Buchung (art, ausgangfk, betrag, datum, eingangfk) values (?, ?, ?, ?, ?) 
+2016-03-04 08:33:46,321 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-04 08:34:02,228 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_, konto0_.bankfk as bankfk3_4_, konto0_.kontostand as kontosta2_4_, konto0_.kundefk as kundefk4_4_ from Konto konto0_ where konto0_.nr=? 
+2016-03-04 08:34:02,231 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-04 08:34:02,233 DEBUG o.h.SQL [JavaFX Application Thread] insert into Buchung (art, ausgangfk, betrag, datum, eingangfk) values (?, ?, ?, ?, ?) 
+2016-03-04 08:34:02,235 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-04 08:34:10,313 DEBUG o.h.SQL [JavaFX Application Thread] select konto0_.nr as nr1_4_, konto0_.bankfk as bankfk3_4_, konto0_.kontostand as kontosta2_4_, konto0_.kundefk as kundefk4_4_ from Konto konto0_ where konto0_.nr=? 
+2016-03-04 08:34:10,316 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
+2016-03-04 08:34:10,317 DEBUG o.h.SQL [JavaFX Application Thread] insert into Buchung (art, ausgangfk, betrag, datum, eingangfk) values (?, ?, ?, ?, ?) 
+2016-03-04 08:34:10,320 DEBUG o.h.SQL [JavaFX Application Thread] update Konto set bankfk=?, kontostand=?, kundefk=? where nr=? 
