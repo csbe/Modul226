@@ -1,0 +1,12 @@
+body{
+	background-color: blue;
+}
+
+.preformatted {
+    white-space: pre-wrap;
+    color: red;
+}
+
+.ui-sortable-column-order{
+	visibility: hidden;
+}

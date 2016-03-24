@@ -2,17 +2,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:f="http://java.sun.com/jsf/core"      
-      xmlns:h="http://java.sun.com/jsf/html">
-	
-    <h:head>
-        <title>Banking</title>
-    </h:head>
-    <h:body>
-    	<h2>Login on Banking</h2>
-    	<h:form>
-    	   <h:inputText value="#{loginBean.name}"></h:inputText>
-    	   <h:commandButton value="Welcome Me" action="welcome"></h:commandButton>
-    	</h:form>
-    </h:body>
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:body>
+	<ui:composition template="/template/template.xhtml">
+		<ui:define name="title">
+			<title>Index Page</title>
+		</ui:define>
+		<ui:define name="content">
+			<h2>Login on Banking</h2>
+			<h:form>
+				<h:inputText value="#{loginBean.nummer}"></h:inputText>
+				<br/>
+				<h:inputSecret value="#{loginBean.pin}"></h:inputSecret>
+				<br/>
+				<h:outputText rendered="#{loginBean.fail}"
+					value="Ungültige Karte!"
+					styleClass="preformatted">
+				</h:outputText>
+				<br/>
+				<h:commandButton value="Welcome Me" action="#{loginBean.login()}"></h:commandButton>
+			</h:form>
+		</ui:define>
+	</ui:composition>
+</h:body>
 </html>
