@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ace="http://www.icefaces.org/icefaces/components"
+	xmlns:icecore="http://www.icefaces.org/icefaces/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:body>
+	<ui:composition template="/template/template.xhtml">
+		<ui:define name="title">
+			<title>Index Page</title>
+		</ui:define>
+		<ui:define name="content">
+			<h2><h:outputText value=""/></h2>
+			<h:link value="Zur Liste" outcome="next" />
+
+			<h:form id="form">
+				<h:outputText value="Name"></h:outputText>
+				<h:inputText id="name" value="#{kundeBean.kunde.name}" required="true"
+					requiredMessage="name is required">
+					<f:validateLength minimum="3" maximum="16" />
+				</h:inputText>
+				<h:message for="name" style="color:red" />
+				<br />
+				<h:outputText value="Vorname"></h:outputText>
+				<h:inputText id="vorname" value="#{kundeBean.kunde.vorname}" required="true"
+					requiredMessage="first name is required">
+					<f:validateLength minimum="3" maximum="16" />
+				</h:inputText>
+				<h:message for="vorname" style="color:red" />
+				<br />
+
+				<br />
+				<h:commandButton value="Speichern" action="#{kundeBean.save()}"></h:commandButton>
+			</h:form>
+
+		</ui:define>
+	</ui:composition>
+</h:body>
+</html>
