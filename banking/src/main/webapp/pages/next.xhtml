@@ -5,7 +5,7 @@
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:ace="http://www.icefaces.org/icefaces/components"
-    xmlns:icecore="http://www.icefaces.org/icefaces/core"
+	xmlns:icecore="http://www.icefaces.org/icefaces/core"
 	xmlns:ui="http://java.sun.com/jsf/facelets">
 <h:body>
 	<ui:composition template="/template/template.xhtml">
@@ -13,29 +13,47 @@
 			<title>Index Page</title>
 		</ui:define>
 		<ui:define name="content">
-			<h2>Login on Banking</h2>
-			<h:form id="form">
-				<ace:dataTable id="kundeTable"
-	                          value="#{kundeBean.kunden}"
-	                          var="kunde"
-	                          paginator="true"
-	                          paginatorPosition="bottom"
-	                          rows="2">
-	                <ace:column id="id" headerText="ID" sortBy="#{kunde.id}"
-	                            filterBy="#{kunde.id}" filterMatchMode="contains">
-	                    <h:outputText id="idCell" value="#{kunde.id}"/>
-	                </ace:column>
-	                <ace:column id="name" headerText="Name" sortBy="#{kunde.name}"
-	                            filterBy="#{kunde.name}" filterMatchMode="contains">
-	                    <h:outputText id="nameCell" value="#{kunde.name}"/>
-	                </ace:column>
-	                <ace:column id="vorname" headerText="Vorname" sortBy="#{kunde.vorname}"
-	                            filterBy="#{kunde.vorname}" filterMatchMode="contains">
-	                    <h:outputText id="vornameCell" value="#{kunde.vorname}"/>
-	                </ace:column>
-	            </ace:dataTable>
-			</h:form>
+			<h2>Kundenübersicht</h2>
+			<h:link value="Kunde erfassen" outcome="kunde" />		
 			
+			<h:form id="form">
+				<ace:dataTable id="kundeTable" value="#{kundeBean.kunden}"
+					var="kunde" paginator="true" paginatorPosition="bottom" rows="2">
+					<ace:column id="id" headerText="ID" sortBy="#{kunde.id}"
+						filterBy="#{kunde.id}" filterMatchMode="contains">
+						<h:outputText id="idCell" value="#{kunde.id}" />
+					</ace:column>
+					<ace:column id="name" headerText="Name" sortBy="#{kunde.name}"
+						filterBy="#{kunde.name}" filterMatchMode="contains">
+						<!-- <h:outputText id="nameCell" value="#{kunde.name}"/>-->
+						<ace:cellEditor>
+							<f:facet name="output">
+								<h:outputText id="nameCell" value="#{kunde.name}" />
+							</f:facet>
+							<f:facet name="input">
+								<h:inputText id="nameInput" value="#{kunde.name}" />
+							</f:facet>
+						</ace:cellEditor>
+					</ace:column>
+					<ace:column id="vorname" headerText="Vorname"
+						sortBy="#{kunde.vorname}" filterBy="#{kunde.vorname}"
+						filterMatchMode="contains">
+						<!-- <h:outputText id="vornameCell" value="#{kunde.vorname}"/>-->
+						<ace:cellEditor>
+							<f:facet name="output">
+								<h:outputText id="vornameCell" value="#{kunde.vorname}" />
+							</f:facet>
+							<f:facet name="input">
+								<h:inputText id="vornameInput" value="#{kunde.vorname}" />
+							</f:facet>
+						</ace:cellEditor>
+					</ace:column>
+					<ace:column id="options" headerText="Options">
+						<ace:rowEditor id="editor" rowEditListener="#{kundeBean.save}"/>
+					</ace:column>
+				</ace:dataTable>
+			</h:form>
+
 		</ui:define>
 	</ui:composition>
 </h:body>
